@@ -1,0 +1,43 @@
+.head{
+    color:  white;
+    background-color: orange;
+    border: 1px solid orange;
+    position:relative;
+    left: 40%;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+}
+body{
+    background-color: rgb(15, 15, 98);
+}
+.main_box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    border-radius: 10px;
+    position: fixed;
+    left: 30%;
+    width: 30%;
+    background-color: whitesmoke;
+    height: max-content;
+    margin: 0;
+    padding: 2rem;
+    gap: 2px;
+}
+label{
+    font-size: large;
+    font-weight: bold;
+}
+button{
+    width: fit-content;
+    background-color: aqua;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    font-size: large;
+}
+/* #Tip_Amount{
+    text-align: center;
+    font-size: large;
+} */
